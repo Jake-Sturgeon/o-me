@@ -13,6 +13,7 @@
 		911F303A26D6D13B0089BC2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911F303926D6D13B0089BC2C /* Preview Assets.xcassets */; };
 		911F304526D6D13C0089BC2C /* o_meTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911F304426D6D13C0089BC2C /* o_meTests.swift */; };
 		911F305026D6D13C0089BC2C /* o_meUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911F304F26D6D13C0089BC2C /* o_meUITests.swift */; };
+		911F305F26DD2DA40089BC2C /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911F305E26DD2DA40089BC2C /* user.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		911F304B26D6D13C0089BC2C /* o-meUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "o-meUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		911F304F26D6D13C0089BC2C /* o_meUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = o_meUITests.swift; sourceTree = "<group>"; };
 		911F305126D6D13C0089BC2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911F305E26DD2DA40089BC2C /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		911F303126D6D13A0089BC2C /* o-me */ = {
 			isa = PBXGroup;
 			children = (
+				911F305D26DD2D870089BC2C /* User */,
 				911F303226D6D13A0089BC2C /* o_meApp.swift */,
 				911F303426D6D13A0089BC2C /* ContentView.swift */,
 				911F303626D6D13B0089BC2C /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				911F305126D6D13C0089BC2C /* Info.plist */,
 			);
 			path = "o-meUITests";
+			sourceTree = "<group>";
+		};
+		911F305D26DD2D870089BC2C /* User */ = {
+			isa = PBXGroup;
+			children = (
+				911F305E26DD2DA40089BC2C /* user.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				911F303526D6D13A0089BC2C /* ContentView.swift in Sources */,
 				911F303326D6D13A0089BC2C /* o_meApp.swift in Sources */,
+				911F305F26DD2DA40089BC2C /* user.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
