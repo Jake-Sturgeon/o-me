@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91144799277F420A0070E5D5 /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91144798277F420A0070E5D5 /* homeScreen.swift */; };
 		911F303326D6D13A0089BC2C /* o_meApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911F303226D6D13A0089BC2C /* o_meApp.swift */; };
 		911F303526D6D13A0089BC2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911F303426D6D13A0089BC2C /* ContentView.swift */; };
 		911F303726D6D13B0089BC2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 911F303626D6D13B0089BC2C /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91144798277F420A0070E5D5 /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
 		911F302F26D6D13A0089BC2C /* o-me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "o-me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		911F303226D6D13A0089BC2C /* o_meApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = o_meApp.swift; sourceTree = "<group>"; };
 		911F303426D6D13A0089BC2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91144797277F41CB0070E5D5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				91144798277F420A0070E5D5 /* homeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9114479A277F436A0070E5D5 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		9114479D277F43A50070E5D5 /* Molecules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Molecules;
+			sourceTree = "<group>";
+		};
+		9114479E277F43B70070E5D5 /* Organisms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Organisms;
+			sourceTree = "<group>";
+		};
 		911F302626D6D13A0089BC2C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +128,10 @@
 		911F303126D6D13A0089BC2C /* o-me */ = {
 			isa = PBXGroup;
 			children = (
+				9114479E277F43B70070E5D5 /* Organisms */,
+				9114479D277F43A50070E5D5 /* Molecules */,
+				9114479A277F436A0070E5D5 /* Atoms */,
+				91144797277F41CB0070E5D5 /* Home */,
 				911F305D26DD2D870089BC2C /* User */,
 				911F303226D6D13A0089BC2C /* o_meApp.swift */,
 				911F303426D6D13A0089BC2C /* ContentView.swift */,
@@ -272,6 +307,7 @@
 			files = (
 				911F303526D6D13A0089BC2C /* ContentView.swift in Sources */,
 				911F303326D6D13A0089BC2C /* o_meApp.swift in Sources */,
+				91144799277F420A0070E5D5 /* homeScreen.swift in Sources */,
 				911F305F26DD2DA40089BC2C /* user.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
